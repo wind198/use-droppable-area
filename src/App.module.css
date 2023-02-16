@@ -1,0 +1,29 @@
+.uploadButton {
+  background-color: blue;
+  border: none;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  padding: 8px 16px;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.uploadButton::before {
+  --size: 26px;
+  background: url("./assets/csv.png");
+  content: "";
+  vertical-align: sub;
+  height: var(--size);
+  width: var(--size);
+  display: inline-block;
+  background-size: contain;
+  margin-right: 8px;
+}
+
+.image {
+  width: 200px;
+  height: auto;
+}
