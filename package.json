@@ -1,10 +1,20 @@
 {
   "name": "use-droppable-area",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "types": "module",
   "main": "dist/index.js",
+  "description": "A hook that give you an area on which you can drag and drop file to upload them",
+  "keywords": [
+    "hook",
+    "react",
+    "droppable",
+    "upload"
+  ],
+  "repository": {
+    "url": "https://github.com/wind198/use-droppable-area"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc --project tsconfig.package.json",
