@@ -1,7 +1,11 @@
 # Use droppable area
 
 ## Introduction
-    Drag and drop files to upload is a quite common case that web applications need to support. This hook allows you to render an area that you can drag and drop file on. You can customize the styling of the area and decide what to render in the area.
+    Drag and drop files to upload is a quite common case that web applications need to support.
+    
+    This hook allows you to render an area that you can drag and drop file on.
+     
+    You can customize the styling of the area and decide what to render in the area.
 
 ## Example
 
